@@ -1,6 +1,6 @@
 {
   "name": "clone-data",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Clone JS object data",
   "main": "index.js",
   "scripts": {

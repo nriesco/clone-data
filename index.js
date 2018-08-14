@@ -48,4 +48,4 @@ let cloneMeta = function (node, optParents) {
   return copy;
 };
 
-export default cloneMeta;
+module.exports = cloneMeta;
