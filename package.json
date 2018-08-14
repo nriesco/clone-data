@@ -1,0 +1,32 @@
+{
+  "name": "clone-data",
+  "version": "0.0.1",
+  "description": "Clone JS object data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nriesco/clone-data.git"
+  },
+  "keywords": [
+    "javascript",
+    "object",
+    "clone",
+    "js"
+  ],
+  "author": "Nico R.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nriesco/clone-data/issues"
+  },
+  "homepage": "https://github.com/nriesco/clone-data#readme",
+  "dependencies": {
+    "mongodb": "^3.1.3"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0",
+    "standard": "^11.0.1"
+  }
+}
