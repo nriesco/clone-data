@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Date format: 2029-11-02
 - Options: Added / Changed / Fixed
 
-## [1.0.0] - 2018-08-16
+## [1.0.1] - 2018-08-16
 ### Changed
 - Main method name => clone
 - More methods => key code / key decode
