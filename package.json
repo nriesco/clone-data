@@ -2,9 +2,9 @@
   "name": "clone-data",
   "version": "0.1.1",
   "description": "Clone JS object data",
-  "main": "index.js",
+  "main": "lib/clone-data.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_ENV=test mocha --timeout 10000 test"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "eslint-config-standard": "^11.0.0",
+    "should": "^13.2.3",
     "standard": "^11.0.1"
   }
 }

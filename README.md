@@ -12,7 +12,12 @@ Details [here](https://jira.mongodb.org/browse/SERVER-3229?focusedCommentId=3682
 ```javascript
 const cloneData = require('clone-data');
 ...
-let myData = cloneData(oldData);
+let myData = cloneData.clone(oldData);
+
+// encode / decode
+let query = { $ne: true };
+query = cloneData.encode(query); // { [$]ne: true }
+query = cloneData.decode(query); // { $ne: true }
 ```
 
 
